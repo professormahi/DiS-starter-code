@@ -37,6 +37,7 @@ def callback(ch, method, properties, body):
 class AbstractWorld(object):
     SINGLETON = None
     current_node = None
+    node_id = None
 
     @property
     def name(self):
